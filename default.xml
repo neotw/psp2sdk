@@ -12,7 +12,15 @@
 	<remote	name="gcc"
 		fetch="git://gcc.gnu.org/git" />
 
+	<remote name="psp2dev"
+		fetch="." />
+
+	<default revision="master"
+		remote="github" />
+
 	<project path="gcc" name="gcc.git" remote="gcc" revision="refs/tags/gcc-5_1_0-release" />
 		<copyfile src="build/Makefile" dest="Makefile" />
 	</project>
+
+	<project path="multilib" name="multilib" />
 </manifest>
