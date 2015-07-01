@@ -18,10 +18,11 @@
 	<default revision="master"
 		remote="psp2dev" />
 
-	<project path="gcc" name="gcc.git" remote="gcc" revision="refs/tags/gcc-5_1_0-release">
-		<copyfile src="build/Makefile" dest="Makefile" />
+	<project path="build" name="build">
+		<copyfile src="Makefile" dest="Makefile" />
 	</project>
 
+	<project path="gcc" name="gcc.git" remote="gcc" revision="refs/tags/gcc-5_1_0-release" />
 	<project path="multilib" name="multilib" />
 	<project path="libs" name="libs" />
 	<project path="tools" name="tools" />
