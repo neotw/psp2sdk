@@ -16,7 +16,7 @@
 		fetch="." />
 
 	<default revision="master"
-		remote="github" />
+		remote="psp2dev" />
 
 	<project path="gcc" name="gcc.git" remote="gcc" revision="refs/tags/gcc-5_1_0-release">
 		<copyfile src="build/Makefile" dest="Makefile" />
