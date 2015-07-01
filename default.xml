@@ -13,4 +13,6 @@
 		fetch="git://gcc.gnu.org/git" />
 
 	<project path="gcc" name="gcc.git" remote="gcc" revision="refs/tags/gcc-5_1_0-release" />
+		<copyfile src="build/Makefile" dest="Makefile" />
+	</project>
 </manifest>
