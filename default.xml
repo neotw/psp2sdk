@@ -23,4 +23,5 @@
 	</project>
 
 	<project path="multilib" name="multilib" />
+	<project path="libs" name="libs" />
 </manifest>
