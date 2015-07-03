@@ -12,11 +12,11 @@
 	<remote	name="gcc"
 		fetch="git://gcc.gnu.org/git" />
 
-	<remote name="psp2dev"
+	<remote name="psp2sdk"
 		fetch="." />
 
 	<default revision="master"
-		remote="psp2dev" />
+		remote="psp2sdk" />
 
 	<project path="build" name="build">
 		<copyfile src="Makefile" dest="Makefile" />
